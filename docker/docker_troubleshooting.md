@@ -6,7 +6,7 @@ then it is sufficient to run post-installation tasks to enable docker usage with
 
 ## Post-installation tasks to use docker without sudo
 sudo chown root:docker /var/run/docker.sock
-sudo usermod -Ag docker valerio
+sudo usermod -Ag docker $USER
 
 sudo chown root:docker /home/$USER/.docker/*
 sudo chmod 660 .docker/*
