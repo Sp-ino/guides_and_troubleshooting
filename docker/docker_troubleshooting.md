@@ -14,6 +14,5 @@ Then, logout and login again into docker restart user session on pc
 
 
 ## Useful notes
-In order to use nvidia drivers in docker containers on Arch, install nvidia-container-toolkit by using the PKGBUILD in this folder (credit to Alice Knag @AskAlice). To install run ```makepkg``` and then ```sudo pacman -U *.tar.zst```
-
+In order to use nvidia drivers in docker containers on Arch, install nvidia-container-toolkit by using the PKGBUILD in this folder (credit to Alice Knag @AskAlice). To install run ```makepkg -Acs``` and then ```sudo pacman -U *.tar.zst```
 
