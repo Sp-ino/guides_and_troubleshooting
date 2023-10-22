@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export PATH=$PATH:/home/valerio/MATLAB
+source /tools/Xilinx/Model_Composer/2022.1/settings64.sh
+/tools/Xilinx/Model_Composer/2022.1/bin/model_composer

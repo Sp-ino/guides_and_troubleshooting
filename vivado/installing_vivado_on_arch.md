@@ -19,6 +19,6 @@ Finally, run
 and kill the processes that are found. This will allow the installation process to finish.
 
 ### Shortcuts
-If no shortcuts are created, you can launch vivado by using the bash script in this repo. In order to be able to launch vivado without specifying the script's full path, you can install the script in the folder /usr/local/bin with the command   
+If no shortcuts are created, you can launch vivado by using the bash script `vivado` contained in this folder. In order to be able to launch vivado without specifying the script's full path, you can install the script in the folder /usr/local/bin with the command   
 ```$ sudo install vivado /usr/local/bin```
-
+You may use the same approach to create a link for the model composer by using the `model_composer` script.
